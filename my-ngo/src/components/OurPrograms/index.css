@@ -1,0 +1,38 @@
+/* Add this to your CSS file or in a <style> tag in your component */
+
+.containers {
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    margin: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
